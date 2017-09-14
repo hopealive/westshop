@@ -79,10 +79,10 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
+	background-color: #626572;
 	border-bottom: 1px solid #e2e2e2;
 	padding: 4px 0px 3px 0;
-	margin: 0 0 20px 0;
+	margin: 0;
 	min-height: 40px;
 }
 #top .container {
@@ -101,13 +101,13 @@ div.required .control-label:before {
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
-	color: #888;
-	text-shadow: 0 1px 0 #FFF;
+	color: #fff;
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
 	color: #444;
 }
+
 #top-links .dropdown-menu a {
 	text-shadow: none;
 }
@@ -135,14 +135,23 @@ div.required .control-label:before {
 #search .input-lg {
 	height: 40px;
 	line-height: 20px;
-	padding: 0 10px;
+        padding: 15px;
+        color: #fff;
+        background-color: #626572;
+        font-size: 16px;
+        border: 0px solid;
+        border-radius: 3px;
 }
-#search .btn-lg {
+/*#search .btn-lg {
 	font-size: 15px;
 	line-height: 18px;
 	padding: 10px 35px;
 	text-shadow: 0 1px 0 #FFF;
-}
+        background-color: #313139;
+}*/
+
+
+
 /* cart */
 #cart {
 	margin-bottom: 10px;
@@ -192,10 +201,10 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #313139;
+/*	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #1f90bb #1f90bb #145e7a;*/
 	min-height: 40px;
 }
 #menu .nav > li > a {
@@ -313,7 +322,7 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
+	background-color: #313139;
 	border-top: 1px solid #ddd;
 	color: #e2e2e2;
 }
@@ -522,7 +531,7 @@ footer h5 {
 }
 /* product list */
 .product-thumb {
-	border: 1px solid #ddd;
+	/*border: 1px solid #ddd;*/
 	margin-bottom: 20px;
 	overflow: auto;
 }
@@ -743,4 +752,26 @@ h2.price {
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
     background-image: none;
     background-color: #df5c39;
+}
+
+
+#form-currency button {
+    border-width: 0px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #313139;
+}
+
+.menu-container.container {
+    background-color: #313139;
+}
+header .row {
+    background-color: #313139;
+}
+#search .btn-lg {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 35px;
+    text-shadow: 0 1px 0 #FFF;
+    background-color: #313139;
 }

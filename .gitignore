@@ -6,19 +6,16 @@ bin-release/
 [Bb]in/ # FlashDevelop bin
 
 # Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
 west
 www
+
 config.php
 *config.php
+.admin/config.php
+*config*
+*config
+
+settings/
+system/storage/
+*/cache/
 tmp/
