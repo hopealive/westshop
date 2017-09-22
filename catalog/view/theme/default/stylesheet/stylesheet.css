@@ -126,7 +126,21 @@ div.required .control-label:before {
 #top-links a + a {
 	margin-left: 15px;
 }
-/* logo */
+#top-links ul.list-inline >li a:before{
+	content: '|';
+	margin-right: 5px;
+	margin-left: -5px;
+}
+#top-links ul.list-inline > li:first-child a:before{
+	content: '';
+}
+#top-links ul.dropdown-menu.dropdown-menu-right a:before{
+	content: '';
+}
+#top-links ul.dropdown-menu.dropdown-menu-right{
+background: #626572
+}
+	/* logo */
 #logo {
 	margin: 0 0 10px 0;
 }
@@ -138,12 +152,12 @@ div.required .control-label:before {
 	margin-bottom: 10px;
 }
 #search .input-lg {
-	height: 40px;
+	height: 30px;
 	line-height: 20px;
         padding: 15px;
         color: #fff;
         background-color: #626572;
-        font-size: 16px;
+        font-size: 14px;
         border: 0px solid;
         border-radius: 3px;
 }
@@ -407,7 +421,7 @@ footer h5 {
 	font-size: 10.2px;
 }
 .btn-lg {
-	padding: 10px 16px;
+	padding: 5px 16px;
 	font-size: 15px;
 }
 .btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover {
@@ -796,7 +810,7 @@ header .row {
 #search .btn-lg {
     font-size: 15px;
     line-height: 18px;
-    padding: 10px 35px;
+    padding: 5px 35px;
     text-shadow: 0 1px 0 #FFF;
     background-color: #313139;
 }
