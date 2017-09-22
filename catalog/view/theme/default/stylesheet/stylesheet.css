@@ -1,3 +1,7 @@
+/* menu li hover color #C95645*/
+
+
+
 body {
 	font-family: sans-serif;
         /*'Open Sans', */
@@ -99,11 +103,11 @@ div.required .control-label:before {
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
-	color: #fff;
+	color: #ddd;
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
-	color: #444;
+	color: #fff;
 }
 
 #top-links .dropdown-menu a {
