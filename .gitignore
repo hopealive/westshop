@@ -8,6 +8,7 @@ bin-release/
 # Other files and folders
 west
 www
+gdp
 
 config.php
 *config.php
