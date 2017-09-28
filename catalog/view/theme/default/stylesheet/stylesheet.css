@@ -102,6 +102,7 @@ div.required .control-label:before {
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
 }
+/***WEST-4 START***/
 #top .btn-link, #top-links li, #top-links a {
 	color: #ddd;
 	text-decoration: none;
@@ -109,7 +110,7 @@ div.required .control-label:before {
 #top .btn-link:hover, #top-links a:hover {
 	color: #fff;
 }
-
+/***WEST-4 END***/
 #top-links .dropdown-menu a {
 	text-shadow: none;
 }
@@ -126,6 +127,8 @@ div.required .control-label:before {
 #top-links a + a {
 	margin-left: 15px;
 }
+
+/***WEST 5 START***/
 #top-links ul.list-inline >li a:before{
 	content: '|';
 	margin-right: 5px;
@@ -140,6 +143,8 @@ div.required .control-label:before {
 #top-links ul.dropdown-menu.dropdown-menu-right{
 background: #626572
 }
+
+/***WEST-5 END***/
 	/* logo */
 #logo {
 	margin: 0 0 10px 0;
@@ -151,6 +156,7 @@ background: #626572
 #search {
 	margin-bottom: 10px;
 }
+/*WEST-5 FIXES START*/
 #search .input-lg {
 	height: 30px;
 	line-height: 20px;
@@ -161,6 +167,7 @@ background: #626572
         border: 0px solid;
         border-radius: 3px;
 }
+/*WEST-5 FIXES END*/
 /*#search .btn-lg {
 	font-size: 15px;
 	line-height: 18px;
@@ -305,9 +312,9 @@ background: #626572
 	}
 }
 @media (max-width: 767px) {
-	#menu {
-		border-radius: 4px;
-	}
+	/*#menu {*/
+		/*border-radius: 5px;*/
+	/*}*/
 	#menu div.dropdown-inner > ul.list-unstyled {
 		display: block;
 	}
@@ -800,6 +807,11 @@ h2.price {
     background-color: #313139;
     border-bottom: 5px solid #ce211a;
 }
+/***   WEST-6  MENU START   ***/
+.container {
+		width: 100%;
+	}
+/***   WEST-6  MENU END  ***/
 header {
     background-color: #313139;
     padding-top: 10px;
@@ -807,10 +819,24 @@ header {
 header .row {
     background-color: #313139;
 }
+/*WEST-5 BUTTON PADDING START*/
 #search .btn-lg {
     font-size: 15px;
     line-height: 18px;
     padding: 5px 35px;
     text-shadow: 0 1px 0 #FFF;
     background-color: #313139;
+}
+/*WEST-5 BUTTON PADDING END*/
+/***   WEST-6 CAROUSEL FIX START   ***/
+.img-responsive{
+	display: inline-block;
+}
+/***   WEST-6 CAROUSEL FIX END   ***/
+
+/*** STYLES FOR MENU ***/
+#menu.row{
+	padding-top: 5px;
+	background-color: #313139;
+	border-bottom: 5px solid #ce211a;
 }
