@@ -21,3 +21,4 @@ system/storage/
 */cache/
 tmp/
 *storage/logs/*
+storage/logs/*
