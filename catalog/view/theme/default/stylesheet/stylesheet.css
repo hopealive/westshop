@@ -267,7 +267,8 @@ div.required .control-label:before {
 	font-size: 12px;
 }
 #menu .dropdown-inner li a:hover {
-	color: #f7624a;
+	color: #ffffff;
+	/*color: #f7624a;*/
 }
 #menu .see-all {
 	display: block;
@@ -377,16 +378,15 @@ footer h5 {
 }
 /* breadcrumb */
 .breadcrumb {
-	margin: 0 0 20px 0;
+	margin: 10px 0 20px 0;
 	padding: 8px 0;
-	border: 1px solid #ddd;
+	background-color: #ffffff;
 }
 .breadcrumb i {
 	font-size: 15px;
 }
 .breadcrumb > li {
 	text-shadow: 0 1px 0 #FFF;
-	padding: 0 20px;
 	position: relative;
 	white-space: nowrap;
 }
@@ -395,19 +395,28 @@ footer h5 {
 	padding: 0;
 }
 .breadcrumb > li:after {
+	color: #aaa;
+	content: "/";
+	margin: 0 0.75rem;
+	position: relative;
+	top: 1px;
+
+	/*content: '';*/
+	/*display: block;*/
+	/*position: absolute;*/
+	/*top: -3px;*/
+	/*right: -5px;*/
+	/*width: 26px;*/
+	/*height: 26px;*/
+	/*border-right: 1px solid #DDD;*/
+	/*border-bottom: 1px solid #DDD;*/
+	/*-webkit-transform: rotate(-45deg);*/
+	/*-moz-transform: rotate(-45deg);*/
+	/*-o-transform: rotate(-45deg);*/
+	/*transform: rotate(-45deg);*/
+}
+.breadcrumb>li:last-child:after{
 	content: '';
-	display: block;
-	position: absolute;
-	top: -3px;
-	right: -5px;
-	width: 26px;
-	height: 26px;
-	border-right: 1px solid #DDD;
-	border-bottom: 1px solid #DDD;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
 }
 .pagination {
 	margin: 0;
@@ -854,4 +863,8 @@ ul.dropdown-menu{
 	background-color: #CE211A;
 	background-image: linear-gradient(to bottom, #CE211A, #e0211a);
 	background-repeat: repeat-x;
+}
+/*** BREADCUMB ***/
+ul.breadcrumb>li a{
+	color: #000000
 }
