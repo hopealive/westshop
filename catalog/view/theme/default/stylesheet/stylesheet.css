@@ -868,3 +868,10 @@ ul.dropdown-menu{
 ul.breadcrumb>li a{
 	color: #000000
 }
+/*** HEADER HORIZONTAL RULE ***/
+@media only screen and (min-width: 768px) {
+	.container > .row > .col-sm-3 {
+		border-bottom: 1px solid #FFFFFF;
+		padding-bottom: 15px;
+	}
+}
