@@ -580,7 +580,7 @@ footer h5 {
 }
 .product-thumb .image {
 	text-align: center;
-	border-bottom: 1px solid #999;
+
 }
 .product-thumb .image a {
 	display: block;
@@ -884,4 +884,9 @@ ul.breadcrumb>li a{
 
 aside .swiper-viewport{
 	display: none;
+}
+/*** Product compare link ***/
+a#compare-total.btn.btn-link{
+	color: #000000;
+
 }
