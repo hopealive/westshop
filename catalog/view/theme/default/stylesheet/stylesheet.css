@@ -463,15 +463,19 @@ footer h5 {
 	border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
 }
 .btn-primary {
+	padding: 1rem 2rem 1.0625rem 2rem;
+	font-weight: bold;
+	width: 100%;
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #82b440;
+	background-image: linear-gradient(to top, #76b852, #8DC26F);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #56ab2f #52c234 #1ca700;
 }
-.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #1f90bb;
+.btn-primary:hover, .btn-primary:active, .btn-primary:active:focus, .btn-primary:active:hover .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+	border-color: #56ab2f;
+	background-color: #82b440;
 	background-position: 0 -15px;
 }
 .btn-warning {
@@ -889,4 +893,12 @@ aside .swiper-viewport{
 a#compare-total.btn.btn-link{
 	color: #000000;
 
+}
+/*** Product image hover ***/
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+	border-color: #CE211A;
+}
+.form-control:focus{
+	border-color: #CE211A;
+	box-shadow: none;
 }
