@@ -38,9 +38,10 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1;
+	color: #f7624a;
 }
 a:hover {
+	color: #222222;
 	text-decoration: none;
 }
 legend {
@@ -896,9 +897,9 @@ a#compare-total.btn.btn-link{
 }
 /*** Product image hover ***/
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-	border-color: #CE211A;
+	border-color: #f7624a;
 }
 .form-control:focus{
-	border-color: #CE211A;
+	border-color: #f7624a;
 	box-shadow: none;
 }
